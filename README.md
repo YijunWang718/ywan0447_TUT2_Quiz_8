@@ -2,10 +2,11 @@
 ## Imaging Technique Inspiration
 - *Picture 1*![Image](readmeImages/coding_pt1_1.png)
 - *Picture 2*![Image](readmeImages/coding_pt1_2.png)
-    [link](https://openprocessing.org/sketch/2211491)
+- [link](https://openprocessing.org/sketch/2211491)
 
 - **Reason**
-    - I noticed that the animation in this work is not updated according to the draw function, and it will stay for a while after generating a new image and then change. 
+    1. The animation in this work is not updated according to the draw function, and it will stay for a while after generating a new image and then change. 
+    2. I think this helps to control the animation rendering without device interaction, making each part of the scene present rhythmically rather than refreshing at any time.
 
 
 ## Coding Technique Exploration
