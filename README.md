@@ -1,9 +1,19 @@
 # **Research Report**
 ## Imaging Technique Inspiration
-- 两张高质量截图或图像
-- 100字说明理由和选择借鉴方向
+- *Picture 1*![Image](readmeImages/coding_pt1_1.png)
+- *Picture 2*![Image](readmeImages/coding_pt1_2.png)
+- **Reason**
+    1. Different layouts and transitions between elements are designed in the animation, demonstrating a method of dividing the screen into multiple sections.
+
+    2. Colors are randomly generated, but the color combinations are harmonious and controllable.
+
+    3. Local mouse interaction is implemented without affecting the overall animation.
+
+    4. Different layout schemes are chosen based on the window's width and height.
+
+    5. Different parts of the animation change at different speeds, and the overall animation stops or changes within a certain period of time.
+
 ## Coding Technique Exploration
-- ![Image](readmeImages/coding_pt_2.png)
 - *[Code link](https://openprocessing.org/sketch/2211491)*
 - **Reason**
    1. Utilizing functions like:
@@ -32,4 +42,3 @@
 
    4. It controls the overall and local **program execution time** using the "sleep(ms)" function and "await sleep()".
       
-      > This is a blockquote.
