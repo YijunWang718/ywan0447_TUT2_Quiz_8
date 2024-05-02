@@ -5,9 +5,26 @@
 ## Coding Technique Exploration
 - [Code link](https://openprocessing.org/sketch/2211491)   
 - Reason
-    - 设计很酷，不断改变着元素颜色但是总是保持着视觉上的协调
-    - 
-    - 根据设备情况检查是否与鼠标交互，并且画面元素能和鼠标位置实现局部交互
-    - 使用If语句根据当前browser长宽更改画布尺寸与画面布局
-    - 使用
+    - Utilizing functions like:
+    ```
+        nowColorSet = getRandomColorSet();
+        nextBGColor = nowColorSet.bgColor.color”
+    ```
+        bgFillColor = NYLerpColorRGBA(nowBGColor, nextBGColor, animatedT);
+    ```
+        nowBGColor = nextBGColor;
+        bgFillColor = nowBGColor;
+    ```
+    to control the color of picture.
+    - It utilizes arrays and if&while to create complex graphics, altering animation effects based on random number conditions，and adjust the layout based on the window width and height.
+    - It checks whether mouse interaction is enabled depending on the device using:
+    ```
+     // if not mobile, enable mouse interactive
+        MOUSE_INTERACTIVE = !checkIsMobile();
+        possibleEasings = [
+        easeInOutSine, easeInOutQuad, easeInOutCubic,
+        ];
+    ```
+    and ensures that elements on the screen can interact with the mouse position.
+    - It controls the overall and local program execution time using the "sleep(ms)" function and "await sleep()".
       
