@@ -15,7 +15,7 @@
     ```
         nowBGColor = nextBGColor;
         bgFillColor = nowBGColor;
-    ```
+\
         to control the color of picture.
     - It utilizes arrays and if&while to create complex graphics, altering animation effects based on random number conditions，and adjust the layout based on the window width and height.
     - It checks whether mouse interaction is enabled depending on the device using:
@@ -25,7 +25,7 @@
         possibleEasings = [
         easeInOutSine, easeInOutQuad, easeInOutCubic,
         ];
-    ```
+
         and ensures that elements on the screen can interact with the mouse position.
     - It controls the overall and local program execution time using the "sleep(ms)" function and "await sleep()".
       
