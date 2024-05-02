@@ -3,7 +3,7 @@
 - 两张高质量截图或图像
 - 100字说明理由和选择借鉴方向
 ## Coding Technique Exploration
-- *![Image](readmeImages/coding_pt_2.png)*
+- ![Image](readmeImages/coding_pt_2.png)
 - *[Code link](https://openprocessing.org/sketch/2211491)*
 - **Reason**
    1. Utilizing functions like:
@@ -32,3 +32,4 @@
 
    4. It controls the overall and local **program execution time** using the "sleep(ms)" function and "await sleep()".
       
+      > This is a blockquote.
